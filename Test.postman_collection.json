@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "5121bd27-a1cd-4392-ae46-054ac4105d58",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6728697"
+	},
+	"item": [
+		{
+			"name": "Get cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.caiman-app.de/api/cars-test?search=2323&per_page=9&page=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"caiman-app",
+						"de"
+					],
+					"path": [
+						"api",
+						"cars-test"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "2323",
+							"description": "optional"
+						},
+						{
+							"key": "per_page",
+							"value": "9",
+							"description": "optional"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"description": "optional"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
