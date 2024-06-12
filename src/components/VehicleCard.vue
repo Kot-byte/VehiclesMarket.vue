@@ -103,9 +103,15 @@ h3 {
   color: rgba(41, 49, 72, 0.6);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1670px) {
   .vehicle-card {
-    width: clamp(300px, 80%, 20%);
+    width: clamp(350px, 80%, 20%);
+  }
+}
+
+@media (max-width: 1500px) {
+  .vehicle-card {
+    width: clamp(200px, 80%, 25%);
   }
 }
 
